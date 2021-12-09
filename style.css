@@ -1,3 +1,13 @@
+/* creating space between navbar and header after fixing navbar */
+/* add psuedo selector */
+body::before {
+    display: block;
+    content: '';
+    /* between navbar and header 50px */
+    height: 50px;
+
+}
+
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
